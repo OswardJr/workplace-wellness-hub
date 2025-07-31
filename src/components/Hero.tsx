@@ -17,19 +17,50 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              GIMNASIA LABORAL Y PAUSAS ACTIVAS
+              Movimiento Inteligente para Empresas y Personas Saludables
             </h1>
             
             <p className="text-lg lg:text-xl opacity-90">
-              Programa Internacional de Certificación para Empresas Saludables
+              Bienestar real, resultados visibles.
             </p>
+            
+            <p className="text-base lg:text-lg opacity-80">
+              En Trainermax ayudamos a empresas y personas a transformar su salud física, emocional y organizacional mediante programas estructurados de pausas activas, gimnasia laboral, entrenamiento personalizado y diplomados de alto nivel. Somos una marca peruana con proyección internacional y aval de NPTI USA.
+            </p>
+            
+            <div className="space-y-4">
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                <span className="text-sm">Mejora el clima laboral y reduce el estrés</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                <span className="text-sm">Alcanza tus metas físicas con entrenadores certificados</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                <span className="text-sm">Fortalece la salud mental, emocional y corporal</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                <span className="text-sm">Capacítate con el Diplomado líder en gimnasia laboral de Latinoamérica</span>
+              </div>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" variant="secondary" className="text-lg px-8">
-                Ver Programa
+                Solicitar Demo Gratuita
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
-                Contactar Ahora
+                Entrenamiento Personalizado
               </Button>
             </div>
           </div>
