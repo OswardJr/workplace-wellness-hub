@@ -37,8 +37,8 @@ const Hero = () => {
           <div className="relative">
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 p-8">
               <img 
-                src="/lovable-uploads/c77498c4-faa7-401f-bbca-4a4a5f842b53.png" 
-                alt="Trainermax Professional" 
+                src="/lovable-uploads/4fda3fbe-5542-4490-b216-422c1514afc0.png" 
+                alt="Workplace wellness and gimnasia laboral" 
                 className="w-full h-auto rounded-lg"
               />
             </Card>
