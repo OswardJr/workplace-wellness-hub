@@ -35,6 +35,18 @@ const Header = () => {
             >
               Nosotros
             </Link>
+            <Link 
+              to="/servicios" 
+              className={`hover:underline transition-colors ${location.pathname === '/servicios' ? 'text-secondary' : ''}`}
+            >
+              Servicios
+            </Link>
+            <Link 
+              to="/sectores" 
+              className={`hover:underline transition-colors ${location.pathname === '/sectores' ? 'text-secondary' : ''}`}
+            >
+              Sectores
+            </Link>
           </nav>
           
           <div className="hidden md:flex items-center space-x-6">
