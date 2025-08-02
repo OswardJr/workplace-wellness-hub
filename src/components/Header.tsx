@@ -58,9 +58,15 @@ const Header = () => {
               <Mail className="w-4 h-4" />
               <span className="text-sm">team@luistrainermax.com</span>
             </div>
-            <Button variant="secondary" size="sm">
-              Contacto
-            </Button>
+            <a 
+              href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="secondary" size="sm">
+                Contacto
+              </Button>
+            </a>
           </div>
         </div>
       </div>
