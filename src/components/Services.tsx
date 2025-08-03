@@ -75,11 +75,16 @@ const Services = () => {
                     Incluye módulos de salud ocupacional, psicología, coaching, nutrición y branding personal.
                   </p>
                 </div>
-              </div>
+              </div><br/>
 
+              <a
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <Button variant="outline" className="w-full">
                 Ver Soluciones Corporativas
-              </Button>
+              </Button></a>
             </CardContent>
           </Card>
 
@@ -123,12 +128,17 @@ const Services = () => {
               </div>
 
               <div className="space-y-2">
+                <a
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline" className="w-full">
                   Quiero Entrenar con Trainermax
                 </Button>
-                <Button variant="ghost" className="w-full text-sm">
+                <Button variant="outline" className="w-full text-sm">
                   Solicitar Programa Familiar
-                </Button>
+                </Button></a>
               </div>
             </CardContent>
           </Card>

@@ -15,7 +15,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-16 bg-primary text-primary-foreground">
+    <section className="py-16 bg-[#232937] text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center">

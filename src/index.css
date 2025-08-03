@@ -6,6 +6,10 @@
 All colors MUST be HSL.
 */
 
+.bg-gradient-to-r{
+  background: #232937 !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

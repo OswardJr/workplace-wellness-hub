@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Sectors from "./pages/Sectors";
+import PausasActivas from "./pages/PausasActivas";
 import NotFound from "./pages/NotFound";
 import BienestarEmocional from "./pages/services/BienestarEmocional";
 import CertificacionPausasActivas from "./pages/services/CertificacionPausasActivas";
@@ -14,8 +15,9 @@ import EventosCorporativos from "./pages/services/EventosCorporativos";
 import GimnasiaLaboral from "./pages/services/GimnasiaLaboral";
 import ImplementacionBienestar from "./pages/services/ImplementacionBienestar";
 import MasajesAntiestres from "./pages/services/MasajesAntiestres";
-import PausasActivas from "./pages/services/PausasActivas";
+// import PausasActivas from "./pages/services/PausasActivas";
 import ProgramasVirtuales from "./pages/services/ProgramasVirtuales";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const queryClient = new QueryClient();
 
@@ -38,10 +40,12 @@ const App = () => (
           <Route path="/servicios/pausas-activas" element={<PausasActivas />} />
           <Route path="/servicios/programas-virtuales" element={<ProgramasVirtuales />} />
           <Route path="/sectores" element={<Sectors />} />
+          <Route path="/pausas-activas" element={<PausasActivas />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <ScrollToTopButton />
     </TooltipProvider>
   </QueryClientProvider>
 );

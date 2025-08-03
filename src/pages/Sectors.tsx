@@ -72,7 +72,7 @@ const Sectors = () => {
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-r from-primary to-primary/90">
+        <section className="py-16 bg-[#232937] from-primary to-primary/90">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <h1 className="text-4xl lg:text-5xl font-bold mb-6">

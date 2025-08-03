@@ -21,7 +21,7 @@ const Coverage = () => {
   ];
 
   return (
-    <section className="py-16 bg-primary text-primary-foreground">
+    <section className="py-16 bg-[#232937] text-primary-foreground">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-center">¿Dónde trabajamos?</h2>
         
@@ -34,7 +34,7 @@ const Coverage = () => {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-4 opacity-90">Lima Metropolitana</p>
+              <p className="text-white text-sm mb-4 opacity-90">Lima Metropolitana</p>
               <div className="grid grid-cols-3 gap-2">
                 {locations.map((location, index) => (
                   <Badge key={index} variant="secondary" className="text-xs">
@@ -53,7 +53,7 @@ const Coverage = () => {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-4 opacity-90">
+              <p className="text-white text-sm mb-4 opacity-90">
                 Equipos híbridos y oficinas en provincias vía Zoom, Meet o Teams
               </p>
               <div className="space-y-2">
