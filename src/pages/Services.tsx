@@ -172,9 +172,15 @@ const Services = () => {
               <p className="text-xl mb-8">
                 Ofrecemos un diagnóstico gratuito de bienestar laboral donde analizamos tu situación y te ayudamos a construir el plan ideal.
               </p>
-              <Button size="lg" variant="secondary">
-                Solicita tu diagnóstico sin compromiso
-              </Button>
+              <a 
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20solicitar%20un%20diagnóstico%20sin%20compromiso%20para%20mi%20empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" variant="secondary">
+                  Solicita tu diagnóstico sin compromiso
+                </Button>
+              </a>
             </div>
           </div>
         </section>

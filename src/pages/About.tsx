@@ -185,14 +185,26 @@ const About = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="flex items-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  Agendar una demo
-                </Button>
-                <Button variant="outline" size="lg" className="flex items-center gap-2">
-                  <MessageCircle className="w-5 h-5" />
-                  Escríbenos por WhatsApp
-                </Button>
+                <a 
+                  href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20agendar%20una%20demo%20para%20conocer%20cómo%20TrainerMax%20puede%20transformar%20mi%20empresa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button size="lg" className="flex items-center gap-2">
+                    <Phone className="w-5 h-5" />
+                    Agendar una demo
+                  </Button>
+                </a>
+                <a 
+                  href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg" className="flex items-center gap-2">
+                    <MessageCircle className="w-5 h-5" />
+                    Escríbenos por WhatsApp
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

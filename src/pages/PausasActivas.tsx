@@ -101,7 +101,13 @@ const PausasActivas = () => {
                 Nuestras pausas activas se adaptan a las necesidades específicas de cada empresa, incorporando técnicas de respiración, estiramientos y movimiento para contrarrestar los efectos de la vida sedentaria. 
                 Promovemos la conexión entre los equipos mientras mejoramos la salud física y mental.
               </p>
-              <Button className="mt-6">Consultar Precio</Button>
+              <a
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20consultar%20el%20precio%20de%20las%20pausas%20activas%20para%20mi%20empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="mt-6">Consultar Precio</Button>
+              </a>
             </div>
           </div>
         </section>
@@ -126,7 +132,13 @@ const PausasActivas = () => {
               <p className="text-muted-foreground">
                 Ofrecemos herramientas prácticas para mejorar la energía, la motivación y la salud física en el lugar de trabajo. ¡Tu equipo te lo agradecerá!
               </p>
-              <Button className="mt-6">Contactar</Button>
+              <a
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20las%20pausas%20activas%20para%20mi%20empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="mt-6">Contactar</Button>
+              </a>
             </div>
             <img
               src="/lovable-uploads/800_63748ac9ccbc4.jpg"

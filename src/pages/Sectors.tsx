@@ -153,9 +153,15 @@ const Sectors = () => {
                 Si no ves tu rubro listado, también podemos ayudarte. Nuestros programas se pueden adaptar a cualquier actividad económica, desde tecnológicas hasta constructoras, pasando por instituciones financieras y ONGs.
               </p>
               
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
-                Solicita un diagnóstico gratuito
-              </Button>
+              <a 
+                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20solicitar%20un%20diagnóstico%20gratuito%20para%20mi%20organización"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="bg-primary hover:bg-primary/90">
+                  Solicita un diagnóstico gratuito
+                </Button>
+              </a>
               <p className="text-sm text-muted-foreground mt-4">
                 Para identificar las mejores intervenciones de bienestar laboral para tu organización.
               </p>

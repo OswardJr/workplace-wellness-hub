@@ -25,10 +25,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contacto</h4>
             <div className="space-y-2 text-sm">
-              <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <span>+51 985 172 717</span>
-              </div>
+            <div className="flex items-center space-x-2">
+              <Phone className="w-4 h-4" />
+              <a href="tel:+51985172717" className="hover:text-primary transition-colors">+51 985 172 717</a>
+            </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
                 <span>+51 992 944 119</span>
@@ -37,10 +37,10 @@ const Footer = () => {
                 <Phone className="w-4 h-4" />
                 <span>+51 993 160 528</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
-                <span>team@luistrainermax.com</span>
-              </div>
+            <div className="flex items-center space-x-2">
+              <Mail className="w-4 h-4" />
+              <a href="mailto:team@luistrainermax.com" className="hover:text-primary transition-colors">team@luistrainermax.com</a>
+            </div>
               <div className="flex items-center space-x-2">
                 <Globe className="w-4 h-4" />
                 <span>www.trainermax.pe</span>

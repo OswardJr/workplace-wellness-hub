@@ -91,11 +91,11 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
-              <span className="text-sm">+51 985 172 717</span>
+              <a href="tel:+51985172717" className="text-sm hover:text-secondary transition-colors">+51 985 172 717</a>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4" />
-              <span className="text-sm">team@luistrainermax.com</span>
+              <a href="mailto:team@luistrainermax.com" className="text-sm hover:text-secondary transition-colors">team@luistrainermax.com</a>
             </div>
             <a
               href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
@@ -142,11 +142,11 @@ const Header = () => {
             <div className="border-t border-white/20 pt-4 space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+51 985 172 717</span>
+                <a href="tel:+51985172717" className="hover:text-secondary transition-colors">+51 985 172 717</a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>team@luistrainermax.com</span>
+                <a href="mailto:team@luistrainermax.com" className="hover:text-secondary transition-colors">team@luistrainermax.com</a>
               </div>
               <a
                 href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
