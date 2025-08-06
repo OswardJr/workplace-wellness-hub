@@ -25,17 +25,12 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary-foreground rounded-full flex items-center justify-center">
-                <div className="w-4 h-4 bg-primary rounded-full"></div>
-              </div>
-              <div>
-                <h1 className="text-xl font-bold">TRAINERMAX</h1>
-                <p className="text-sm opacity-90">LATINOAMÉRICA</p>
-                {/* <img 
-                  src="/lovable-uploads/logo.png" 
+              <div className="logo-tr">
+                <img 
+                  src="/lovable-uploads/logo_trainer.png" 
                   alt="Trainermax Latinoamerica" 
-                  className="w-full h-auto rounded-lg"
-                /> */}
+                  className="h-auto rounded-lg"
+                />
               </div>
             </Link>
           </div>

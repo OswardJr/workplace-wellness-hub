@@ -1,80 +1,128 @@
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button } from '@/components/ui/button';
+import { ArrowRight, Play, CheckCircle } from 'lucide-react';
+import heroImage from '@/assets/hero-wellness.jpg';
 
-const Hero = () => {
+// Sample benefits data with unique IDs for better key management
+const benefits = [
+  { id: 'benefit-1', text: 'Mejora el clima laboral y reduce el estrés' },
+  { id: 'benefit-2', text: 'Alcanza tus metas físicas con entrenadores certificados' },
+  { id: 'benefit-3', text: 'Fortalece la salud mental, emocional y corporal' },
+  { id: 'benefit-4', text: 'Capacítate con el Diplomado líder en gimnasia laboral de Latinoamérica' },
+];
+
+const HeroSection = () => {
   return (
     <>
-      {/* Primera sección: encabezado principal */}
-      <section className="bg-[#fff] text-[#313131]">
-        <div className="container mx-auto px-4 py-16">
+      <section id="inicio" className="bg-gradient-subtle min-h-screen flex items-center py-20">
+        <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Pausas Activas para Empresas y Personas Saludables
-              </h1>
-              
-              <p className="text-lg lg:text-xl opacity-90">
-                Bienestar real, resultados visibles.
-              </p><br/>
+            {/* Content */}
+            <div className="space-y-8 animate-fade-up">
+              <div className="space-y-6">
+                <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                  Pausas Activas para{' '}
+                  <span className="text-red-600">Empresas</span> y{' '}
+                  <span className="text-red-600">Personas Saludables</span>
+                </h1>
+                <p className="text-xl text-gray-600 leading-relaxed">
+                  Bienestar real, resultados visibles.
+                </p>
+              </div>
 
-              <a
-                href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button size="lg" variant="outline" className="bg-primary text-white text-lg px-8">
-                  Solicitar Demo Gratuita
-                </Button>
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="text-lg px-8 border-white bg-[#313131] text-white"
+                  className="btn-brand group"
+                  aria-label="Solicitar una demostración gratuita"
                 >
+                  Solicitar Demo Gratuita
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="btn-outline-brand group"
+                  aria-label="Ver entrenamiento personalizado"
+                >
+                  <Play className="mr-2 h-5 w-5" />
                   Entrenamiento Personalizado
                 </Button>
-              </a>
-              
+              </div>
+
+              <div className="pt-8">
+                <p className="text-sm text-gray-500 mb-4">
+                  Contáctanos directamente:
+                </p>
+                <a
+                  href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20TrainerMax"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold transition-colors"
+                  aria-label="Contactar por WhatsApp"
+                >
+                  WhatsApp: +51 985 172 717
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </div>
             </div>
 
-            <div className="relative">
-              <Card className="bg-white/10 backdrop-blur-sm border-white/20 p-8">
-                <img 
-                  src="/lovable-uploads/4fda3fbe-5542-4490-b216-422c1514afc0.png" 
-                  alt="Workplace wellness and gimnasia laboral" 
-                  className="w-full h-auto rounded-lg"
+            {/* Image */}
+            <div className="relative animate-fade-in">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src={heroImage}
+                  alt="Programas de bienestar laboral y gimnasia activa"
+                  className="w-full h-auto object-cover sm:h-[500px]"
                 />
-              </Card>
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/20 to-transparent" />
+              </div>
+
+              {/* Floating Cards */}
+              <div className="absolute -top-6 -left-6 bg-white rounded-xl p-4 shadow-lg">
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-semibold text-gray-800">En línea ahora</span>
+                </div>
+              </div>
+              <div className="absolute -bottom-6 -right-6 bg-red-600 text-white rounded-xl p-4 shadow-lg">
+                <div className="text-center">
+                  <div className="text-2xl font-bold">500+</div>
+                  <div className="text-sm">Empresas atendidas</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Segunda sección: propuesta de valor y acciones */}
-      <section className="bg-[#232937] text-white">
-        <div className="container mx-auto px-4 py-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            
-            {/* Columna izquierda: texto + botones */}
-            <div className="space-y-6">
-              <p className="text-base lg:text-lg">
-                En Trainermax ayudamos a empresas y personas a transformar su salud física, emocional y organizacional mediante programas estructurados de pausas activas, gimnasia laboral, entrenamiento personalizado y diplomados de alto nivel. Somos una marca peruana con proyección internacional y aval de NPTI USA.
+      <section className="bg-[#232937] section-dark py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            {/* Intro Text */}
+            <div className="text-center mb-12 animate-fade-up">
+              <p className="text-lg leading-relaxed text-gray-300">
+                En Trainermax ayudamos a empresas y personas a transformar su salud física,
+                emocional y organizacional mediante programas estructurados de pausas activas,
+                gimnasia laboral, entrenamiento personalizado y diplomados de alto nivel.
+                Somos una marca peruana con proyección internacional y aval de{' '}
+                <span className="text-red-400 font-semibold">NPTI USA</span>.
               </p>
             </div>
 
-            {/* Columna derecha: lista vertical */}
-            <div className="space-y-4">
-              {[
-                "Mejora el clima laboral y reduce el estrés",
-                "Alcanza tus metas físicas con entrenadores certificados",
-                "Fortalece la salud mental, emocional y corporal",
-                "Capacítate con el Diplomado líder en gimnasia laboral de Latinoamérica",
-              ].map((text, index) => (
-                <div key={index} className="flex items-start space-x-2">
-                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 bg-[#7d0505] rounded-full"></div>
+            {/* Benefits Grid */}
+            <div className="grid md:grid-cols-2 gap-6">
+              {benefits.map((benefit) => (
+                <div
+                  key={benefit.id}
+                  className="flex items-start space-x-4 p-6 rounded-xl bg-white/5 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 animate-fade-up"
+                  style={{ animationDelay: `${benefits.indexOf(benefit) * 0.1}s` }}
+                >
+                  <div className="flex-shrink-0">
+                    <CheckCircle className="w-6 h-6 text-red-400" />
                   </div>
-                  <span className="text-sm">{text}</span>
+                  <p className="text-gray-200 font-medium leading-relaxed">
+                    {benefit.text}
+                  </p>
                 </div>
               ))}
             </div>
@@ -85,4 +133,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

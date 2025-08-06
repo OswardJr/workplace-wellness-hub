@@ -7,9 +7,14 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">TRAINERMAX LATINOAMÉRICA</h3>
-            <p className="text-sm opacity-90 mb-4">
+          <div className="logo-tr">
+            <img 
+              src="/lovable-uploads/logo_trainer.png" 
+              alt="Trainermax Latinoamerica" 
+              className="h-auto rounded-lg"
+            />
+
+            <p className="text-sm opacity-90 mb-4 mt-5">
               Empresa líder en programas de servicios de gimnasia laboral y salud ocupacional a nivel internacional.
             </p>
             <div className="flex items-center space-x-2 mb-2">
@@ -21,7 +26,6 @@ const Footer = () => {
               <span className="text-xs">NPTI Official Representative</span>
             </div>
           </div>
-
           <div>
             <h4 className="font-semibold mb-4">Contacto</h4>
             <div className="space-y-2 text-sm">

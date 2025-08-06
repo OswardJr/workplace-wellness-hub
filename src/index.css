@@ -9,6 +9,9 @@ All colors MUST be HSL.
 .bg-gradient-to-r{
   background: #232937 !important;
 }
+.logo-tr{
+  width: 300px !important;
+}
 
 @layer base {
   :root {
