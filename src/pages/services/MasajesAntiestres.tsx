@@ -101,6 +101,22 @@ const MasajesAntiestres = () => {
           name="description"
           content="Mejora el bienestar de tu equipo con masajes antiestrés en oficina. Terapias breves, efectivas y personalizadas. Solicita una jornada piloto gratuita."
         />
+        <meta name="keywords" content="masajes antiestres empresas, masajes oficina peru, masajes corporativos, bienestar laboral, reducir estres trabajo" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/servicios/masajes-antiestres" />
+        <meta property="og:title" content="Masajes Antiestrés para Empresas en Perú | TrainerMax" />
+        <meta property="og:description" content="Relajación inmediata y bienestar para tu equipo con masajes antiestrés profesionales en oficina." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/servicios/masajes-antiestres" />
+        <meta name="twitter:title" content="Masajes Antiestrés Corporativos | TrainerMax" />
+        <meta name="twitter:description" content="Terapias de relajación profesionales para mejorar el bienestar de tu equipo de trabajo." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link
           rel="canonical"
           href="https://luistrainermax.com/servicios/masajes-antiestres"

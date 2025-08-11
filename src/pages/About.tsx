@@ -36,6 +36,22 @@ const About = () => {
           name="description"
           content="Conoce la historia, equipo y enfoque de Trainermax. Más de 9 años promoviendo pausas activas, gimnasia laboral y bienestar en empresas de Perú."
         />
+        <meta name="keywords" content="sobre trainermax, empresa pausas activas peru, equipo bienestar laboral, historia trainermax" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/nosotros" />
+        <meta property="og:title" content="Sobre Nosotros | Trainermax – Bienestar Laboral en Perú" />
+        <meta property="og:description" content="Más de 9 años promoviendo pausas activas, gimnasia laboral y bienestar en empresas de Perú." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/nosotros" />
+        <meta name="twitter:title" content="Sobre Nosotros | Trainermax" />
+        <meta name="twitter:description" content="Conoce el equipo y la historia de la empresa líder en bienestar laboral en Perú." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link rel="canonical" href="https://luistrainermax.com/nosotros" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

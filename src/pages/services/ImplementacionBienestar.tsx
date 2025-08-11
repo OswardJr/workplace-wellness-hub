@@ -134,6 +134,22 @@ const ImplementacionBienestar = () => {
           name="description"
           content="Diseñamos e implementamos programas integrales de pausas activas, masajes y gimnasia laboral alineados a tus objetivos de salud ocupacional y clima laboral."
         />
+        <meta name="keywords" content="programa bienestar laboral, implementacion pausas activas, salud ocupacional empresas, bienestar organizacional peru" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/servicios/implementacion-bienestar" />
+        <meta property="og:title" content="Implementación de Programas de Bienestar Laboral | TrainerMax" />
+        <meta property="og:description" content="Construye un programa sostenible de bienestar físico y emocional para tu empresa con acompañamiento profesional." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/servicios/implementacion-bienestar" />
+        <meta name="twitter:title" content="Programas de Bienestar Laboral | TrainerMax" />
+        <meta name="twitter:description" content="De la intención a la acción: implementa un programa integral de bienestar laboral con resultados medibles." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link
           rel="canonical"
           href="https://luistrainermax.com/servicios/implementacion-bienestar"

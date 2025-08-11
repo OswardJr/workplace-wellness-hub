@@ -132,6 +132,22 @@ const GimnasiaLaboral = () => {
           name="description"
           content="Prevén lesiones y mejora el bienestar físico de tu equipo con programas de gimnasia laboral adaptados a cada tipo de trabajo. Solicita una evaluación gratuita."
         />
+        <meta name="keywords" content="gimnasia laboral peru, gimnasia laboral empresas, ejercicios laborales, prevencion lesiones trabajo, salud ocupacional" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/servicios/gimnasia-laboral" />
+        <meta property="og:title" content="Gimnasia Laboral para Empresas en Perú | TrainerMax" />
+        <meta property="og:description" content="Programas profesionales de gimnasia laboral para prevenir lesiones y mejorar el bienestar físico de tu equipo." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/servicios/gimnasia-laboral" />
+        <meta name="twitter:title" content="Gimnasia Laboral para Empresas | TrainerMax" />
+        <meta name="twitter:description" content="Prevención profesional de lesiones musculoesqueléticas y mejora postural para tu empresa." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link
           rel="canonical"
           href="https://luistrainermax.com/servicios/gimnasia-laboral"

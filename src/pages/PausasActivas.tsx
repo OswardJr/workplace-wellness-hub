@@ -66,7 +66,23 @@ const PausasActivas = () => {
           name="description"
           content="Descubre los beneficios para la salud de las pausas activas en el trabajo. TRAINERMAX ofrece soluciones innovadoras para mejorar el bienestar en el entorno laboral."
         />
-        <link rel="canonical" href="https://luistrainermax.com/servicios/pausas-activas" />
+        <meta name="keywords" content="pausas activas trabajo, beneficios pausas activas, pausas activas empresas peru, ejercicios trabajo, bienestar laboral" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/pausas-activas" />
+        <meta property="og:title" content="Pausas Activas en el Trabajo | Beneficios para la Salud | TRAINERMAX" />
+        <meta property="og:description" content="Mejora la salud y productividad de tu equipo con nuestras pausas activas laborales profesionales." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/pausas-activas" />
+        <meta name="twitter:title" content="Pausas Activas en el Trabajo | TRAINERMAX" />
+        <meta name="twitter:description" content="Soluciones profesionales de pausas activas para empresas en todo el Perú." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        <link rel="canonical" href="https://luistrainermax.com/pausas-activas" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
       

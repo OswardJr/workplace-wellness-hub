@@ -147,6 +147,22 @@ const EventosCorporativos = () => {
           name="description"
           content="Eleva tus eventos con pausas activas, masajes, dinámicas físicas y talleres de bienestar. Programas personalizados para empresas en todo el Perú."
         />
+        <meta name="keywords" content="eventos corporativos bienestar, activaciones empresas, pausas activas eventos, masajes eventos empresas, team building peru" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/servicios/eventos-corporativos" />
+        <meta property="og:title" content="Activaciones y Eventos Corporativos con Bienestar | TrainerMax" />
+        <meta property="og:description" content="Conecta, motiva y activa a tu equipo en momentos clave con nuestros servicios de bienestar para eventos." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/servicios/eventos-corporativos" />
+        <meta name="twitter:title" content="Eventos Corporativos con Bienestar | TrainerMax" />
+        <meta name="twitter:description" content="Activaciones físicas, pausas activas grupales y talleres de bienestar para tus eventos empresariales." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link
           rel="canonical"
           href="https://luistrainermax.com/servicios/eventos-corporativos"

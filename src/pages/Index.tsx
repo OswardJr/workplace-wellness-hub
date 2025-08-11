@@ -58,6 +58,22 @@ const Index = () => {
           name="description"
           content="Entrena con Trainermax. Servicios de bienestar corporativo, pausas activas, gimnasia laboral, entrenamiento personalizado y diplomados internacionales con aval NPTI USA."
         />
+        <meta name="keywords" content="pausas activas peru, gimnasia laboral, entrenamiento personal, bienestar corporativo, trainermax, salud ocupacional" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://luistrainermax.com/" />
+        <meta property="og:title" content="Trainermax | Bienestar Laboral y Pausas Activas en Perú" />
+        <meta property="og:description" content="Líder en servicios de bienestar corporativo: pausas activas, gimnasia laboral y entrenamiento personalizado en Perú." />
+        <meta property="og:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://luistrainermax.com/" />
+        <meta name="twitter:title" content="Trainermax | Bienestar Laboral en Perú" />
+        <meta name="twitter:description" content="Servicios profesionales de pausas activas, gimnasia laboral y entrenamiento personalizado." />
+        <meta name="twitter:image" content="https://luistrainermax.com/lovable-uploads/logo_trainer.png" />
+        
         <link rel="canonical" href="https://luistrainermax.com/" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
