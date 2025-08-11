@@ -116,7 +116,7 @@ const Sectors = () => {
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-16 bg-[#232937] from-primary to-primary/90">
+        <header className="py-16 bg-[#232937] from-primary to-primary/90">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <h1 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -127,12 +127,13 @@ const Sectors = () => {
               </p>
             </div>
           </div>
-        </section>
+        </header>
 
         {/* Descripción */}
-        <section className="py-16">
+        <section className="py-16" aria-labelledby="description-heading">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <h2 id="description-heading" className="sr-only">Servicios adaptados por sector</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 En TrainerMax entendemos que cada tipo de empresa tiene necesidades distintas en cuanto a salud y bienestar laboral. Por eso, diseñamos programas personalizados que se adaptan a la realidad de cada sector: desde oficinas con alta carga mental, hasta plantas industriales con alto esfuerzo físico.
               </p>
@@ -144,26 +145,28 @@ const Sectors = () => {
         </section>
 
         {/* Sectores */}
-        <section className="py-16 bg-muted/50">
+        <section className="py-16 bg-muted/50" aria-labelledby="sectors-heading">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold mb-12 text-center">
+              <h2 id="sectors-heading" className="text-3xl font-bold mb-12 text-center">
                 Adaptamos nuestros servicios a los principales sectores empresariales del Perú:
               </h2>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {sectors.map((sector, index) => (
-                  <Card key={index} className="h-full">
-                    <CardHeader>
-                      <div className="flex items-center space-x-3 mb-3">
-                        {sector.icon}
-                        <CardTitle className="text-lg">{sector.title}</CardTitle>
-                      </div>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-muted-foreground">{sector.description}</p>
-                    </CardContent>
-                  </Card>
+                  <article key={index}>
+                    <Card className="h-full">
+                      <CardHeader>
+                        <div className="flex items-center space-x-3 mb-3">
+                          {sector.icon}
+                          <CardTitle className="text-lg" role="heading" aria-level={3}>{sector.title}</CardTitle>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-muted-foreground">{sector.description}</p>
+                      </CardContent>
+                    </Card>
+                  </article>
                 ))}
               </div>
             </div>
@@ -171,10 +174,10 @@ const Sectors = () => {
         </section>
 
         {/* Beneficios */}
-        <section className="py-16">
+        <section className="py-16" aria-labelledby="benefits-heading">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Beneficios de trabajar por sector</h2>
+              <h2 id="benefits-heading" className="text-3xl font-bold mb-8 text-center">Beneficios de trabajar por sector</h2>
               
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 {benefits.map((benefit, index) => (
@@ -189,10 +192,10 @@ const Sectors = () => {
         </section>
 
         {/* Otros sectores */}
-        <section className="py-16 bg-muted/50">
+        <section className="py-16 bg-muted/50" aria-labelledby="other-sectors-heading">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">¿Tu empresa pertenece a otro sector?</h2>
+              <h2 id="other-sectors-heading" className="text-3xl font-bold mb-6">¿Tu empresa pertenece a otro sector?</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 Si no ves tu rubro listado, también podemos ayudarte. Nuestros programas se pueden adaptar a cualquier actividad económica, desde tecnológicas hasta constructoras, pasando por instituciones financieras y ONGs.
               </p>
@@ -201,6 +204,7 @@ const Sectors = () => {
                 href="https://wa.me/51985172717?text=Hola,%20me%20interesa%20solicitar%20un%20diagnóstico%20gratuito%20para%20mi%20organización"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Contactar por WhatsApp para solicitar diagnóstico gratuito"
               >
                 <Button size="lg" className="bg-primary hover:bg-primary/90">
                   Solicita un diagnóstico gratuito
