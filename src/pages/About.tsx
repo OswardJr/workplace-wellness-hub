@@ -1,12 +1,45 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Phone, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+// Schema JSON-LD
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Trainermax",
+  url: "https://luistrainermax.com/nosotros",
+  logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+51 985 172 717",
+    contactType: "Customer Service",
+    areaServed: "PE",
+    availableLanguage: ["Spanish"]
+  },
+  description:
+    "Trainermax es una empresa peruana especializada en bienestar laboral, pausas activas y programas corporativos de salud ocupacional.",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "PE"
+  }
+};
+
 const About = () => {
   return (
     <div className="min-h-screen bg-background font-inter">
+      <Helmet>
+        <title>Sobre Nosotros | Trainermax – Bienestar Laboral y Pausas Activas en Perú</title>
+        <meta
+          name="description"
+          content="Conoce la historia, equipo y enfoque de Trainermax. Más de 9 años promoviendo pausas activas, gimnasia laboral y bienestar en empresas de Perú."
+        />
+        <link rel="canonical" href="https://luistrainermax.com/nosotros" />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      
       <Header />
       
       <main className="pt-20">

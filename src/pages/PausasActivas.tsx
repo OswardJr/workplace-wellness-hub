@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
@@ -5,6 +6,25 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useState } from "react";
 
+// Schema JSON-LD
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Pausas Activas Laborales",
+  name: "Pausas Activas en el Trabajo | TRAINERMAX",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/servicios/pausas-activas",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png"
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Perú"
+  },
+  description:
+    "Soluciones de pausas activas para oficinas, fábricas y empresas en Perú. Mejora la salud y el bienestar de tu equipo con Trainermax."
+};
 
 const PausasActivas = () => {
   const beneficios = [
@@ -39,6 +59,17 @@ const PausasActivas = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>Pausas Activas en el Trabajo | Beneficios para la Salud | TRAINERMAX</title>
+        <meta
+          name="description"
+          content="Descubre los beneficios para la salud de las pausas activas en el trabajo. TRAINERMAX ofrece soluciones innovadoras para mejorar el bienestar en el entorno laboral."
+        />
+        <link rel="canonical" href="https://luistrainermax.com/servicios/pausas-activas" />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      
       <Header />
 
       <main className="pt-20">

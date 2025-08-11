@@ -1,8 +1,46 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Brain, Wind, Focus, CheckCircle, Calendar, Users, Clock, MessageCircle } from "lucide-react";
+import {
+  Heart,
+  Brain,
+  Wind,
+  Focus,
+  CheckCircle,
+  Calendar,
+  Users,
+  Clock,
+  MessageCircle
+} from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+// ✅ JSON-LD Schema para SEO estructurado
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Talleres de Bienestar Emocional y Manejo del Estrés",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/servicios/bienestar-emocional",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png"
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Perú"
+  },
+  description:
+    "Trainermax ofrece talleres prácticos y personalizados para mejorar el bienestar emocional laboral: manejo del estrés, pausas mentales, respiración consciente y salud mental en el trabajo.",
+  keywords: [
+    "bienestar emocional laboral",
+    "taller manejo del estrés",
+    "pausas mentales",
+    "respiración consciente empresa",
+    "salud mental laboral",
+    "trainermax bienestar emocional"
+  ]
+};
 
 const BienestarEmocional = () => {
   const talleres = [
@@ -65,6 +103,22 @@ const BienestarEmocional = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>
+          Talleres de Bienestar Emocional y Manejo del Estrés Laboral | TrainerMax Perú
+        </title>
+        <meta
+          name="description"
+          content="Ofrece a tus colaboradores talleres prácticos de manejo del estrés, pausas mentales, respiración consciente y salud emocional. Virtual o presencial en todo el Perú."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/bienestar-emocional"
+        />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      
       <Header />
       
       <main className="pt-20">

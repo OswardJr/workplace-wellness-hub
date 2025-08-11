@@ -1,8 +1,43 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, BookOpen, Award, Users, CheckCircle, MessageCircle } from "lucide-react";
+import {
+  GraduationCap,
+  BookOpen,
+  Award,
+  Users,
+  CheckCircle,
+  MessageCircle
+} from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+// ✅ JSON-LD Schema
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Certificación de Pausas Activas para Empresas",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/servicios/certificacion-pausas-activas",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png"
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Perú"
+  },
+  description:
+    "Entrena y certifica a tu propio personal para ejecutar pausas activas y gimnasia laboral. Programa completo con materiales, rutinas y soporte profesional.",
+  keywords: [
+    "certificación pausas activas",
+    "formación promotores bienestar",
+    "trainermax certifica a tu equipo",
+    "pausas activas con personal interno",
+    "gimnasia laboral certificación",
+    "programa de bienestar interno"
+  ]
+};
 
 const CertificacionPausasActivas = () => {
   const programaIncluye = [
@@ -87,6 +122,20 @@ const CertificacionPausasActivas = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>Certifica a tu Equipo en Pausas Activas y Bienestar Laboral | TrainerMax</title>
+        <meta
+          name="description"
+          content="Entrena y certifica a tu propio personal para ejecutar pausas activas y gimnasia laboral. Programa completo con materiales, rutinas y soporte."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/certificacion-pausas-activas"
+        />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      
       <Header />
       
       <main className="pt-20">

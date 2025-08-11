@@ -1,8 +1,37 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Search, FileText, Users, BarChart, CheckCircle, Clock, Calendar, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Implementación de Programas de Bienestar Laboral",
+  provider: {
+    "@type": "Organization",
+    name: "TrainerMax",
+    url: "https://luistrainermax.com/servicios/implementacion-bienestar",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png",
+    email: "team@luistrainermax.com",
+    telephone: "+51 985 172 717",
+    address: {
+      "@type": "Country",
+      name: "Perú"
+    }
+  },
+  description:
+    "Diseñamos e implementamos programas integrales de pausas activas, masajes y gimnasia laboral alineados a tus objetivos de salud ocupacional y clima laboral.",
+  keywords: [
+    "programa de bienestar laboral",
+    "implementación pausas activas",
+    "salud ocupacional empresas",
+    "trainermax bienestar",
+    "gimnasia laboral continua",
+    "estrategia bienestar organizacional"
+  ]
+};
 
 const ImplementacionBienestar = () => {
   const serviciosIncluidos = [
@@ -96,6 +125,24 @@ const ImplementacionBienestar = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>
+          Implementación de Programas de Bienestar Laboral | TrainerMax Perú
+        </title>
+        <meta
+          name="description"
+          content="Diseñamos e implementamos programas integrales de pausas activas, masajes y gimnasia laboral alineados a tus objetivos de salud ocupacional y clima laboral."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/implementacion-bienestar"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <Header />
       
       <main className="pt-20">

@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
               <div className="flex items-center space-x-2">
                 <Globe className="w-4 h-4" />
-                <span>www.trainermax.pe</span>
+                <span>www.luistrainermax.com</span>
               </div>
             </div>
           </div>

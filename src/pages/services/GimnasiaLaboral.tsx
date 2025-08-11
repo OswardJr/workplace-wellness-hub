@@ -1,8 +1,37 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Activity, Shield, Target, Clock, Users, CheckCircle, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Gimnasia Laboral para Empresas",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/servicios/gimnasia-laboral",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png",
+    email: "team@luistrainermax.com",
+    telephone: "+51 985 172 717",
+    address: {
+      "@type": "Country",
+      name: "Perú"
+    }
+  },
+  description:
+    "Prevén lesiones y mejora el bienestar físico de tu equipo con programas de gimnasia laboral adaptados a cada tipo de trabajo. Solicita una evaluación gratuita.",
+  keywords: [
+    "gimnasia laboral",
+    "gimnasia laboral para empresas",
+    "ejercicios laborales",
+    "prevención de lesiones en el trabajo",
+    "programa de salud ocupacional",
+    "trainermax gimnasia laboral Perú"
+  ]
+};
 
 const GimnasiaLaboral = () => {
   const beneficios = [
@@ -94,6 +123,24 @@ const GimnasiaLaboral = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>
+          Gimnasia Laboral para Empresas en Perú | Prevención y Bienestar | TrainerMax
+        </title>
+        <meta
+          name="description"
+          content="Prevén lesiones y mejora el bienestar físico de tu equipo con programas de gimnasia laboral adaptados a cada tipo de trabajo. Solicita una evaluación gratuita."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/gimnasia-laboral"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <Header />
       
       <main className="pt-20">

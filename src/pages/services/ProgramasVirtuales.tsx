@@ -1,8 +1,38 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Monitor, Video, Calendar, Zap, Globe, CheckCircle, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Programas Virtuales de Bienestar Laboral",
+  name: "Programas Virtuales de Bienestar Laboral para Empresas | TrainerMax Perú",
+  url: "https://luistrainermax.com/programas-virtuales",
+  logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png",
+  provider: {
+    "@type": "Organization",
+    name: "TrainerMax",
+    email: "team@luistrainermax.com",
+    telephone: "+51 985 172 717",
+    address: {
+      "@type": "Country",
+      name: "Perú"
+    }
+  },
+  description:
+    "Pausas activas, gimnasia laboral y bienestar emocional para equipos remotos y empresas con sedes múltiples. 100% online y personalizable.",
+  keywords: [
+    "programas virtuales bienestar",
+    "pausas activas online",
+    "gimnasia laboral remota",
+    "bienestar remoto empresas",
+    "trainermax virtual",
+    "salud ocupacional online Perú"
+  ]
+};
 
 const ProgramasVirtuales = () => {
   const incluye = [
@@ -80,6 +110,24 @@ const ProgramasVirtuales = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>
+          Programas Virtuales de Bienestar Laboral para Empresas | TrainerMax Perú
+        </title>
+        <meta
+          name="description"
+          content="Pausas activas, gimnasia laboral y bienestar emocional para equipos remotos y empresas con sedes múltiples. 100% online y personalizable."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/programas-virtuales"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <Header />
       
       <main className="pt-20">

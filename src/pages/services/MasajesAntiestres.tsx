@@ -1,8 +1,37 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Heart, Clock, Users, Shield, CheckCircle, Calendar, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Masajes antiestrés corporativos",
+  name: "Masajes Antiestrés para Empresas en Perú | TrainerMax",
+  url: "https://luistrainermax.com/servicios/masajes-antiestres",
+  logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png",
+  provider: {
+    "@type": "Organization",
+    name: "TrainerMax",
+    email: "team@luistrainermax.com",
+    telephone: "+51 985 172 717",
+    address: {
+      "@type": "Country",
+      name: "Perú"
+    }
+  },
+  description: "Mejora el bienestar de tu equipo con masajes antiestrés en oficina. Terapias breves, efectivas y personalizadas. Solicita una jornada piloto gratuita.",
+  keywords: [
+    "masajes antiestres para empresas",
+    "masajes en oficina",
+    "servicio de masajes corporativos",
+    "bienestar laboral",
+    "masajes para reducir el estres",
+    "masajes empresariales Lima Perú"
+  ]
+};
 
 const MasajesAntiestres = () => {
   const beneficios = [
@@ -65,6 +94,22 @@ const MasajesAntiestres = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>Masajes Antiestrés para Empresas en Perú | TrainerMax Bienestar Corporativo</title>
+        <meta
+          name="description"
+          content="Mejora el bienestar de tu equipo con masajes antiestrés en oficina. Terapias breves, efectivas y personalizadas. Solicita una jornada piloto gratuita."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/masajes-antiestres"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <Header />
       
       <main className="pt-20">

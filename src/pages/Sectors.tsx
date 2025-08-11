@@ -1,8 +1,39 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Headphones, Factory, Building, CreditCard, Monitor, ShoppingBag, Truck, Landmark, Hospital, GraduationCap } from "lucide-react";
+import {
+  CheckCircle,
+  Headphones,
+  Factory,
+  Building,
+  CreditCard,
+  Monitor,
+  ShoppingBag,
+  Truck,
+  Landmark,
+  Hospital,
+  GraduationCap
+} from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+// Schema básico para esta sección
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Programas de Bienestar Laboral por Sector",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/sectores"
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Perú"
+  },
+  description:
+    "Trainermax adapta sus programas de pausas activas, masajes y gimnasia laboral a distintos sectores empresariales en todo el Perú."
+};
 
 const Sectors = () => {
   const sectors = [
@@ -68,6 +99,19 @@ const Sectors = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>
+          Sectores que Atendemos | Soluciones de Bienestar Laboral para Empresas | TrainerMax
+        </title>
+        <meta
+          name="description"
+          content="Descubre cómo TrainerMax adapta sus programas de pausas activas, masajes y gimnasia laboral a distintos sectores en todo el Perú."
+        />
+        <link rel="canonical" href="https://luistrainermax.com/sectores" />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+
       <Header />
       
       <main className="pt-20">

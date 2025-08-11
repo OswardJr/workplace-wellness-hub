@@ -35,7 +35,7 @@ const Services = () => {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <h4 className="font-semibold">Pausas Activas Personalizadas</h4>
+                    <h2 className="font-semibold">Pausas Activas Personalizadas</h2>
                   </div>
                   <p className="text-sm text-muted-foreground pl-4">
                     Rutinas de 5 a 15 minutos integradas en la jornada laboral. Guiadas por instructores certificados, 
@@ -46,7 +46,7 @@ const Services = () => {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <h4 className="font-semibold">Gimnasia Laboral</h4>
+                    <h2 className="font-semibold">Gimnasia Laboral</h2>
                   </div>
                   <p className="text-sm text-muted-foreground pl-4">
                     Sesiones funcionales (20–45 min) realizadas en oficinas, plantas industriales, 
@@ -57,7 +57,7 @@ const Services = () => {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <h4 className="font-semibold">Masajes Antiestrés</h4>
+                    <h2 className="font-semibold">Masajes Antiestrés</h2>
                   </div>
                   <p className="text-sm text-muted-foreground pl-4">
                     Terapias exprés aplicadas por fisioterapeutas. Ideales para reducir la tensión muscular 
@@ -68,7 +68,7 @@ const Services = () => {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <h4 className="font-semibold">Diplomado Internacional</h4>
+                    <h2 className="font-semibold">Diplomado Internacional</h2>
                   </div>
                   <p className="text-sm text-muted-foreground pl-4">
                     Programa avalado por NPTI (EE.UU.) que forma líderes en bienestar. 

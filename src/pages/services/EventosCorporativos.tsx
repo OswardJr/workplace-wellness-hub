@@ -1,8 +1,45 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Heart, Users, Award, Zap, Target, CheckCircle, MessageCircle } from "lucide-react";
+import {
+  Calendar,
+  Heart,
+  Users,
+  Award,
+  Zap,
+  Target,
+  CheckCircle,
+  MessageCircle
+} from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+// Schema JSON-LD optimizado
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Activaciones y Eventos Corporativos con Bienestar Laboral",
+  provider: {
+    "@type": "Organization",
+    name: "Trainermax",
+    url: "https://luistrainermax.com/servicios/eventos-corporativos",
+    logo: "https://luistrainermax.com/lovable-uploads/logo_trainer.png"
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Perú"
+  },
+  description:
+    "Eleva tus eventos corporativos con pausas activas, masajes antiestrés, dinámicas físicas y talleres de bienestar. Servicios personalizados en todo el Perú.",
+  keywords: [
+    "eventos corporativos con pausas activas",
+    "activaciones bienestar",
+    "masajes eventos empresa",
+    "semana de la salud",
+    "talleres bienestar laboral",
+    "trainermax eventos corporativos Perú"
+  ]
+};
 
 const EventosCorporativos = () => {
   const tiposEventos = [
@@ -103,6 +140,20 @@ const EventosCorporativos = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+
+      <Helmet>
+        <title>Activaciones y Eventos Corporativos con Bienestar Laboral | TrainerMax Perú</title>
+        <meta
+          name="description"
+          content="Eleva tus eventos con pausas activas, masajes, dinámicas físicas y talleres de bienestar. Programas personalizados para empresas en todo el Perú."
+        />
+        <link
+          rel="canonical"
+          href="https://luistrainermax.com/servicios/eventos-corporativos"
+        />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      
       <Header />
       
       <main className="pt-20">
