@@ -1,0 +1,22 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/nosotros/page": "app/nosotros/page.js",
+  "/sectores/page": "app/sectores/page.js",
+  "/servicios/page": "app/servicios/page.js",
+  "/pausas-activas/page": "app/pausas-activas/page.js",
+  "/sectores/banca-finanzas/page": "app/sectores/banca-finanzas/page.js",
+  "/sectores/call-centers/page": "app/sectores/call-centers/page.js",
+  "/sectores/fabricas/page": "app/sectores/fabricas/page.js",
+  "/sectores/logistica/page": "app/sectores/logistica/page.js",
+  "/sectores/oficinas-corporativas/page": "app/sectores/oficinas-corporativas/page.js",
+  "/servicios/bienestar-emocional/page": "app/servicios/bienestar-emocional/page.js",
+  "/servicios/certificacion-pausas-activas/page": "app/servicios/certificacion-pausas-activas/page.js",
+  "/sectores/tecnologia/page": "app/sectores/tecnologia/page.js",
+  "/servicios/eventos-corporativos/page": "app/servicios/eventos-corporativos/page.js",
+  "/servicios/implementacion-bienestar/page": "app/servicios/implementacion-bienestar/page.js",
+  "/servicios/gimnasia-laboral/page": "app/servicios/gimnasia-laboral/page.js",
+  "/servicios/pausas-activas/page": "app/servicios/pausas-activas/page.js",
+  "/servicios/masajes-antiestres/page": "app/servicios/masajes-antiestres/page.js",
+  "/servicios/programas-virtuales/page": "app/servicios/programas-virtuales/page.js"
+}

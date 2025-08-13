@@ -1,0 +1,329 @@
+{
+  "pages": {
+    "/not-found": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/not-found-07829f3aa4c549b6.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/_not-found/page-7644c65d39de0fd1.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/css/80a8347fbbe96a16.css",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/8314-2ed674c72dec31f5.js",
+      "static/chunks/475-ec4887f69c3bae5d.js",
+      "static/chunks/app/layout-7ce064ea82394417.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/8314-2ed674c72dec31f5.js",
+      "static/chunks/2889-0181bd2ccfd1bd4f.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/page-339c938ff237c561.js"
+    ],
+    "/nosotros/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/nosotros/page-8147eac48a5a4a3c.js"
+    ],
+    "/sectores/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/page-140bb2f1e87d669f.js"
+    ],
+    "/servicios/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/page-ea221c71280adec3.js"
+    ],
+    "/pausas-activas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/pausas-activas/page-5320eff41dcc9f48.js"
+    ],
+    "/pausas-activas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/pausas-activas/layout-59c9daab96fcb9cf.js"
+    ],
+    "/sectores/banca-finanzas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/banca-finanzas/page-1a29df8cc05003bf.js"
+    ],
+    "/sectores/banca-finanzas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/banca-finanzas/layout-7f3e267dc4bb31e9.js"
+    ],
+    "/sectores/call-centers/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/call-centers/page-358d7146bf1943db.js"
+    ],
+    "/sectores/call-centers/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/call-centers/layout-15143dfc95baf497.js"
+    ],
+    "/sectores/fabricas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/fabricas/page-52b4163e2e8bdd8b.js"
+    ],
+    "/sectores/fabricas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/fabricas/layout-9c0a9058e3a90a26.js"
+    ],
+    "/sectores/logistica/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/logistica/page-2e69b2ec2dd1d839.js"
+    ],
+    "/sectores/logistica/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/logistica/layout-0b78ef33bee48665.js"
+    ],
+    "/sectores/oficinas-corporativas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/oficinas-corporativas/page-7c311b305d925e38.js"
+    ],
+    "/sectores/oficinas-corporativas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/oficinas-corporativas/layout-29f6e64ffdefdd10.js"
+    ],
+    "/servicios/bienestar-emocional/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/bienestar-emocional/page-62350ccecb5cd2f9.js"
+    ],
+    "/servicios/bienestar-emocional/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/bienestar-emocional/layout-aca4be74af0a2780.js"
+    ],
+    "/servicios/certificacion-pausas-activas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/certificacion-pausas-activas/page-0191e8a7c9631d50.js"
+    ],
+    "/servicios/certificacion-pausas-activas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/certificacion-pausas-activas/layout-6390e41ae2518935.js"
+    ],
+    "/sectores/tecnologia/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/sectores/tecnologia/page-06fc758f44043a17.js"
+    ],
+    "/sectores/tecnologia/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/sectores/tecnologia/layout-a6ece04bc0645891.js"
+    ],
+    "/servicios/eventos-corporativos/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/eventos-corporativos/page-a7d5a279e856ffc9.js"
+    ],
+    "/servicios/eventos-corporativos/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/eventos-corporativos/layout-1167ed153d303804.js"
+    ],
+    "/servicios/implementacion-bienestar/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/implementacion-bienestar/page-a7103ca25e013543.js"
+    ],
+    "/servicios/implementacion-bienestar/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/implementacion-bienestar/layout-7a3d0e698faa52dd.js"
+    ],
+    "/servicios/gimnasia-laboral/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/gimnasia-laboral/page-18c6d1b15c5cd461.js"
+    ],
+    "/servicios/gimnasia-laboral/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/gimnasia-laboral/layout-43c7d3f9ac58df0b.js"
+    ],
+    "/servicios/pausas-activas/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/pausas-activas/page-cb7197f28839e522.js"
+    ],
+    "/servicios/pausas-activas/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/pausas-activas/layout-5030e5b89fc3a5be.js"
+    ],
+    "/servicios/masajes-antiestres/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/masajes-antiestres/page-678f0753d975d6b7.js"
+    ],
+    "/servicios/masajes-antiestres/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/masajes-antiestres/layout-40ee0faf70da9872.js"
+    ],
+    "/servicios/programas-virtuales/page": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/9203-ebd96b10d370c497.js",
+      "static/chunks/1819-91233a220367b25e.js",
+      "static/chunks/9295-c8e238164bc76abf.js",
+      "static/chunks/app/servicios/programas-virtuales/page-501b55e20919c2fc.js"
+    ],
+    "/servicios/programas-virtuales/layout": [
+      "static/chunks/webpack-dfa39ad9554ffaba.js",
+      "static/chunks/fd9d1056-c56c85becdca85a5.js",
+      "static/chunks/2117-825a6b8fe8434f98.js",
+      "static/chunks/main-app-947906fe85b6a0f6.js",
+      "static/chunks/app/servicios/programas-virtuales/layout-9b6172d2e169aa08.js"
+    ]
+  }
+}

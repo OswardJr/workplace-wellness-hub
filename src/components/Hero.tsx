@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play, CheckCircle } from 'lucide-react';
-import heroImage from '@/assets/hero-wellness.jpg';
+// import "/assets/hero-wellness.jpg" from '@/assets/hero-wellness.jpg';
 
 // Sample benefits data with unique IDs for better key management
 const benefits = [
@@ -70,7 +70,7 @@ const HeroSection = () => {
             <div className="relative animate-fade-in">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={heroImage}
+                  src={"/assets/hero-wellness.jpg"}
                   alt="Programas de bienestar laboral y gimnasia activa"
                   className="w-full h-auto object-cover sm:h-[500px]"
                 />
